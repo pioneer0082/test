@@ -1,5 +1,5 @@
 import { MainLayout } from "@/components/Layout/MainLayout";
-import { DataTable } from "@/components/UI/DataTable";
+import { DataTable } from "@/components/ui/DataTable";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { useQuery } from "@tanstack/react-query";
