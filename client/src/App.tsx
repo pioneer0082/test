@@ -3,22 +3,22 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "./components/ui/toaster";
 import { TooltipProvider } from "./components/ui/tooltip";
-import { ThemeProvider } from "@/contexts/ThemeContext";
-import NotFound from "@/pages/not-found";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import NotFound from "./pages/not-found";
 
 // Import all pages
-import { Home } from "@/pages/Home";
-import { Dashboard } from "@/pages/Dashboard";
-import { Tasks } from "@/pages/Tasks";
-import { Contacts } from "@/pages/Contacts";
-import { Leads } from "@/pages/Leads";
-import { Organizations } from "@/pages/Organizations";
-import { Opportunities } from "@/pages/Opportunities";
-import { Projects } from "@/pages/Projects";
-import { Time } from "@/pages/Time";
-import { Emails } from "@/pages/Emails";
-import { Calendar } from "@/pages/Calendar";
-import { Reports } from "@/pages/Reports";
+import { Home } from "./pages/Home";
+import { Dashboard } from "./pages/Dashboard";
+import { Tasks } from "./pages/Tasks";
+import { Contacts } from "./pages/Contacts";
+import { Leads } from "./pages/Leads";
+import { Organizations } from "./pages/Organizations";
+import { Opportunities } from "./pages/Opportunities";
+import { Projects } from "./pages/Projects";
+import { Time } from "./pages/Time";
+import { Emails } from "./pages/Emails";
+import { Calendar } from "./pages/Calendar";
+import { Reports } from "./pages/Reports";
 
 function Router() {
   return (

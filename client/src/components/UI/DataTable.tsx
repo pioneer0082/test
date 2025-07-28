@@ -6,12 +6,12 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+} from "./table";
+import { Button } from "./button";
+import { Input } from "./input";
+import { Card, CardContent, CardHeader, CardTitle } from "./card";
 import { Search, RefreshCw, Download, MoreHorizontal } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 
 interface Column {
   key: string;

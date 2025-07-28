@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import { Chart, registerables } from "chart.js";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
 import { MoreHorizontal } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 
 Chart.register(...registerables);
 

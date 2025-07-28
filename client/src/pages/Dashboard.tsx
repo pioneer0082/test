@@ -1,12 +1,12 @@
-import { MainLayout } from "@/components/Layout/MainLayout";
-import { DashboardCharts } from "@/components/Charts/DashboardCharts";
-import { SalesTargetGauge } from "@/components/Charts/SalesTargetGauge";
-import { PerformanceMetrics } from "@/components/Charts/PerformanceMetrics";
-import { DataTable } from "@/components/ui/DataTable";
-import { Progress } from "@/components/ui/progress";
-import { Badge } from "@/components/ui/badge";
+import { MainLayout } from "../components/Layout/MainLayout";
+import { DashboardCharts } from "../components/Charts/DashboardCharts";
+import { SalesTargetGauge } from "../components/Charts/SalesTargetGauge";
+import { PerformanceMetrics } from "../components/Charts/PerformanceMetrics";
+import { DataTable } from "../components/ui/DataTable";
+import { Progress } from "../components/ui/progress";
+import { Badge } from "../components/ui/badge";
 import { useQuery } from "@tanstack/react-query";
-import { api } from "@/lib/api";
+import { api } from "../lib/api";
 import type { Opportunity } from "@shared/schema";
 
 const opportunityColumns = [

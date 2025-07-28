@@ -1,8 +1,8 @@
 import { Search, Sun, Moon, Bell, HelpCircle, User, Filter, Plus } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { useTheme } from "@/contexts/ThemeContext";
+import { Button } from "../ui/button";
+import { Input } from "../ui/input";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "../ui/select";
+import { useTheme } from "../../contexts/ThemeContext";
 
 interface HeaderProps {
   title?: string;

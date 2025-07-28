@@ -1,9 +1,9 @@
-import { MainLayout } from "@/components/Layout/MainLayout";
-import { DataTable } from "@/components/ui/DataTable";
-import { Badge } from "@/components/ui/badge";
+import { MainLayout } from "../components/Layout/MainLayout";
+import { DataTable } from "../components/ui/DataTable";
+import { Badge } from "../components/ui/badge";
 import { useQuery } from "@tanstack/react-query";
-import { api } from "@/lib/api";
-import type { Task } from "@shared/schema";
+import { api } from "../lib/api";
+import type { Task } from "../../../shared/schema";
 
 const taskColumns = [
   {

@@ -1,10 +1,10 @@
-import { MainLayout } from "@/components/Layout/MainLayout";
-import { DataTable } from "@/components/ui/DataTable";
-import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
+import { MainLayout } from "../components/Layout/MainLayout";
+import { DataTable } from "../components/ui/DataTable";
+import { Badge } from "../components/ui/badge";
+import { Progress } from "../components/ui/progress";
 import { useQuery } from "@tanstack/react-query";
-import { api } from "@/lib/api";
-import type { Project } from "@shared/schema";
+import { api } from "../lib/api";
+import type { Project } from "../../../shared/schema";
 
 const projectColumns = [
   {

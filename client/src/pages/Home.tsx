@@ -1,14 +1,14 @@
-import { MainLayout } from "@/components/Layout/MainLayout";
-import { SalesTargetGauge } from "@/components/Charts/SalesTargetGauge";
-import { PerformanceMetrics } from "@/components/Charts/PerformanceMetrics";
-import { DashboardCharts } from "@/components/Charts/DashboardCharts";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { MainLayout } from "../components/Layout/MainLayout";
+import { SalesTargetGauge } from "../components/Charts/SalesTargetGauge";
+import { PerformanceMetrics } from "../components/Charts/PerformanceMetrics";
+import { DashboardCharts } from "../components/Charts/DashboardCharts";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
+import { Badge } from "../components/ui/badge";
+import { Button } from "../components/ui/button";
 import { useQuery } from "@tanstack/react-query";
-import { api } from "@/lib/api";
+import { api } from "../lib/api";
 import { CalendarDays, Users, Target, TrendingUp, Plus, ArrowRight } from "lucide-react";
-import type { Opportunity, Task, Contact, Lead } from "@shared/schema";
+import type { Opportunity, Task, Contact, Lead } from "../../../shared/schema";
 
 export function Home() {
   const { data: opportunities = [] } = useQuery({

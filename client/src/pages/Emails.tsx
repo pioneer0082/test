@@ -1,8 +1,8 @@
-import { MainLayout } from "@/components/Layout/MainLayout";
-import { DataTable } from "@/components/ui/DataTable";
+import { MainLayout } from "../components/Layout/MainLayout";
+import { DataTable } from "../components/ui/DataTable";
 import { useQuery } from "@tanstack/react-query";
-import { api } from "@/lib/api";
-import type { Email } from "@shared/schema";
+import { api } from "../lib/api";
+import type { Email } from "../../../shared/schema";
 
 const emailColumns = [
   {

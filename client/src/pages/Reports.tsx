@@ -1,7 +1,7 @@
-import { MainLayout } from "@/components/Layout/MainLayout";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { MainLayout } from "../components/Layout/MainLayout";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Badge } from "../components/ui/badge";
 import { FileText, BarChart3, TrendingUp, Users, Target, DollarSign } from "lucide-react";
 
 export function Reports() {
